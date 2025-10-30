@@ -19,9 +19,14 @@ favorite_number = 2
 print("first_name",upper)
 # 2. Print how many letters are in your name
 print(len(First_name))
-
+print(f"{first_name} and {favorite_color}")
 # 3. Combine your name and favorite color into one message
-
+num1 = 3
+num2 = 3
+num3 = int(input("what is your 3rd fav"))
+num4 = int(input("what is your 4th fav"))
+print(num1 + num2) 
+print(num3 + num4) 
 
 #  Step 3: Math Practice
 # Use arithmetic operators with your favorite number

@@ -70,6 +70,27 @@ print(greeting2)
 
 sentence = "Python is fun to learn"
 
+declaration_of_independence= "The unanimous Declaration of the thirteen united States of America, When in the Course of human events, it becomes necessary for one people to dissolve the political bands which have connected them with another, and to assume among the powers of the earth, the separate and equal station to which the Laws of Nature and of Nature's God entitle them, a decent respect to the opinions of mankind requires that they should declare the causes which impel them to the separation."
+
+chicago_mayor= "johnson"
+#index slicing
+print(chicago_mayor[0])#first letter
+print(chicago_mayor[6])#last letter
+print(chicago_mayor[4]) #s
+print(chicago_mayor[4:])#get the son in johnson
+print(chicago_mayor[0:4]) #get the john
+#get ohns
+print(chicago_mayor[1:5])
+#get the last letter
+
+#when we get one character/letter
+# its called string indexing
+#when we get chunks of letters
+#from a string, it's called
+# string slicing
+#git add .
+#git commit -m "string slicing
+# "
 # .split(): Splits the string into a list of words
 words = sentence.split()
 print("Split result:", words)
